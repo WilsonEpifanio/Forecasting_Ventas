@@ -4,6 +4,7 @@ scikit-learn
 numpy
 matplotlib
 streamlit
+altair<5
 #jupyter
 seaborn
 joblib
