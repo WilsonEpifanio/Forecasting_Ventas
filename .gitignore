@@ -1,12 +1,47 @@
 # Archivos y carpetas a ignorar
+
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.egg-info/
+dist/
+build/
+.Python
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de configuración
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Datos y modelos (pesados)
 /data/raw/
-#data/processed/
-#models/
-/app/__pycache__/
+/models/
+*.joblib
+
+# Sistema
 .DS_Store
 *.sqlite3
 *.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
